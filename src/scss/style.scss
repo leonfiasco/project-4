@@ -1,0 +1,51 @@
+
+.media{
+  box-shadow: 0 1px 5px black;
+}
+
+
+.card-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+
+}
+
+.button{
+  font-family: Bangers, cursive;
+
+}
+
+.pro-image{
+  border-radius: 60%;
+  height: 50px;
+  margin-left: 9px;
+    margin-top: 8px;
+}
+
+.card-content{
+  padding-top: 70px;
+}
+
+
+.hero-image {
+  @extend .card-image;
+  height: 600px;
+}
+
+.delete{
+  margin-right: 10px;
+}
+
+
+
+
+.button.is-primary{
+  margin-bottom: 8px;
+}
+
+body {
+font-family: Bangers, cursive;
+}
